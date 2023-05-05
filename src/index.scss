@@ -1,6 +1,37 @@
 * {
   margin: 0;
   padding: 0;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+
+  /* Colors/Text/Dark/#1A202C/100% */
+
+  color: #1A202C;
+
+}
+
+.dropDownText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px !important;
+  line-height: 40px;
+  text-align: center;
+  color: #1A202C;
+}
+.HeaderNavigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.dropDownText:hover {
+  color: #00CC96;
+  transition: 0.3s;
 }
 .margin1 {
   margin: 0 24px 0 32px;
@@ -27,5 +58,11 @@
   &:hover {
     color: #00CC96;
   }
+}
+
+
+
+.mrt-1 {
+  margin: 144px 0;
 }
 //Menu

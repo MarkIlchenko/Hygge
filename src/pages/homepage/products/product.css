@@ -1,0 +1,169 @@
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    position: relative;
+
+}
+.ButtonSpace {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ButtonSpaceMarginTop{
+    margin-top: 72px;
+}
+.product-image {
+    width: 276px;
+    height: 276px;
+    border-radius: 48px;
+}
+.item-headline {
+    text-align: left;
+    margin-bottom: 16px;
+}
+.sunCareBtn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFC123;
+    background: rgba(255, 193, 35, 0.1);
+    border-radius: 24px;
+    padding: 8px 16px;
+
+}
+.eyeCareBtn {
+    color: #2975FF;
+    background: rgba(41, 117, 255, 0.1);
+    border-radius: 24px;
+    padding: 8px 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.treatmentsBtn {
+    color: #FF66A0;
+    background: rgba(255, 102, 160, 0.1);
+    border-radius: 24px;
+    padding: 8px 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.moisturizersBtn {
+    color: #00CC96;
+    background: rgba(0, 204, 150, 0.1);
+    border-radius: 24px;
+    padding: 8px 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.textContainer-item {
+    margin-right: auto;
+    margin-top: 32px;
+}
+.item-info {
+    display: flex;
+
+}
+.pricesMargin {
+    margin-left: 24px;
+}
+.DiscountBanner {
+    position: absolute;
+    top: 24px;
+    right: -24px;
+    line-height: 24px;
+    z-index: 100;
+}
+.prices {
+    display: flex;
+    align-items: end;
+}
+.withoutDiscount {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 8px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-decoration-line: line-through;
+
+    /* Colors/Text/Dark/#1A202C/24% */
+
+    color: rgba(26, 32, 44, 0.24);
+}
+
+.withDiscount {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    /* Colors/Text/Dark/#1A202C/100% */
+
+    color: #1A202C;
+    margin-right: 8px;
+}
+.DiscountBanner {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+
+    /* Colors/Text/Light/#F7FAFC/100% */
+
+    color: #F7FAFC;
+    padding: 8px 16px;
+    background: #FF0000;
+    /* Colors/Light/#FFFFFF */
+
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+}
+.flex-test {
+    display: flex;
+}
+.container {
+    position: relative;
+}
+.prevArrowBtn {
+    position: absolute;
+    top: -110px;
+    right: 88px;
+}
+.nextArrowBtn {
+    position: absolute;
+    top: -110px;
+    right: 24px;
+}
+.carouselMb {
+    margin-bottom: 72px;
+}
+.ErrorMessage {
+    color: #FF0000;
+    text-align: center;
+    margin-top: 32px;
+    font-weight: 500;
+}

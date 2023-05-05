@@ -78,17 +78,14 @@ a {
 }
 
 .NavBarWrapper {
-
+    z-index: 2;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 80vh;
-
+    height: 85vh;
     background: #FFF;
     position: fixed;
     overflow-y: hidden;
-
-
 }
 
 /*.NavBarWrapper {*/

@@ -12,10 +12,10 @@ ul {
     list-style-type: none;
 }
 .Footer {
-    padding: 48px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
+    /*max-width: 1296px;*/
     justify-content: space-between;
 }
 .m-4 {
@@ -60,4 +60,11 @@ li a:hover {
     font-size: 16px;
     line-height: 24px;
     color: #1A202C;
+}
+.FooterContainer {
+    /*width: 100%;*/
+    max-width: 1296px;
+    margin: auto;
+    /*display: flex;*/
+    /*justify-content: center;*/
 }

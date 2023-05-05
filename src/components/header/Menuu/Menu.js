@@ -28,9 +28,9 @@ const Menu = () => {
                      {nav.map((x, i) => x.menu ? (
                           <div key={i} >
                               <div className={`dropDownIcon burger-menu`} onClick={handleToggleMenu}>
-                                  <span className={`${isOpen ? "activeText" : ""}`}>
+                                  <p className={ `dropDownText ${isOpen ? "activeText" : ""}`}>
                                       {x.title}
-                                  </span>
+                                  </p>
                                   {isOpen ? <img src={greenArrow} className="mr-2"/> : <img src={backIcon} className="mr-2"/>}
                               </div>
                               <div className={`Link-item ${isOpen ? "menu open" : "menu"}`}>

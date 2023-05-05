@@ -16,31 +16,33 @@ const Header = () => {
     }, [visibleNav]);
     
     return (
-         <nav>
-             {NavBarMenu.map((NavBarMenu) => (
-                  <>
-                      {NavBarMenu.Logo.map((Logo) => (
-                           <Link to={Logo.id}>
-                               <img src={Logo.img} alt="Logo"/>
-                           </Link>
-                      ))}
-                      <Menu />
-                      {/*{NavBarMenu.Burger.map((Burger) => (*/}
-                      {/*     <Link to={Burger.id}>*/}
-                      {/*         <img src={Burger.img}/>*/}
-                      {/*     </Link>*/}
-                      {/*))}*/}
-                      <div>
-                          {NavBarMenu.NavLinks.map((NavLink, index) => (
-                               <Link to={NavLink.id} className={`nav-link ${index ===  1 ? "margin1" : "margin2"}`}>
-                                   <img src={NavLink.img} alt="icon"/>
+         <div className="HeaderNavigation">
+             <nav>
+                 {NavBarMenu.map((NavBarMenu) => (
+                      <>
+                          {NavBarMenu.Logo.map((Logo) => (
+                               <Link to={Logo.id}>
+                                   <img src={Logo.img} alt="Logo"/>
                                </Link>
                           ))}
-                      </div>
-                  </>
-             ))}
-             {/*<Menu value={visibleNav} onChange={setVisibleNav}/>*/}
-         </nav>
+                          <Menu />
+                          {/*{NavBarMenu.Burger.map((Burger) => (*/}
+                          {/*     <Link to={Burger.id}>*/}
+                          {/*         <img src={Burger.img}/>*/}
+                          {/*     </Link>*/}
+                          {/*))}*/}
+                          <div>
+                              {NavBarMenu.NavLinks.map((NavLink, index) => (
+                                   <Link to={NavLink.id} className={`nav-link ${index ===  1 ? "margin1" : "margin2"}`}>
+                                       <img src={NavLink.img} alt="icon"/>
+                                   </Link>
+                              ))}
+                          </div>
+                      </>
+                 ))}
+                 {/*<Menu value={visibleNav} onChange={setVisibleNav}/>*/}
+             </nav>
+         </div>
     );
 };
 

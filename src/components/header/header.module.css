@@ -5,6 +5,9 @@ nav {
   justify-content: space-between;
   padding: 48px;
   box-sizing: border-box;
+  position: fixed;
+  background: #FFF;
+  z-index: 1000;
 }
 
 .nav-margin {
@@ -17,6 +20,10 @@ nav {
 
 .margin2 {
   margin-top: 0;
+}
+
+.HeaderNavigation {
+  background: #2975FF;
 }
 
 /*# sourceMappingURL=header.module.css.map */

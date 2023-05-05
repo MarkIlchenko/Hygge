@@ -1,0 +1,32 @@
+.mt {
+    margin-top: 144px ;
+    margin-bottom: 144px ;
+}
+.centerText {
+    text-align: center;
+}
+/*.textContainer2 h5, h1 {*/
+/*    text-align: center;*/
+/*}*/
+.textContainer2 .mBT-1 {
+    margin: 8px 0 40px 0;
+     width: 100%;
+}
+.blockContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.blockItem {
+    max-width: 304px;
+    display: flex;
+    flex-direction: column;
+}
+.blockItem img{
+    margin: auto;
+}
+
+.blockContainer h4 {
+    margin: 32px 0 16px 0;
+}

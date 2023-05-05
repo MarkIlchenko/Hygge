@@ -18,6 +18,15 @@ a {
   //  color: #00CC96;
   //}
 }
+.dropDownText {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px !important;
+  line-height: 40px;
+  text-align: center;
+  color: #1A202C;
+}
 .dropDownIcon {
   display: flex;
   align-items: center;
@@ -56,6 +65,8 @@ a {
   position: relative;
 
 }
+
+
 .NavBarContainer {
   position: absolute;
   top: 50%;
