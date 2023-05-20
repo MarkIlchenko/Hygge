@@ -13,7 +13,7 @@ const ExploreCategory = () => {
              <div className="exploreCategory mrt-1">
                  {exploreProducts.map((item) => (
                       <div>
-                          <h5 className="overline">
+                          <h5 className="overline ">
                               {item.overline}
                           </h5>
                           <h1 className="mBT-1">

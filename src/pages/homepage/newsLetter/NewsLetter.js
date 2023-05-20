@@ -24,13 +24,13 @@ const NewsLetter = () => {
     }
     
     return (
-         <div className="container Newsletter marginButton">
+         <div className="container Newsletter marginButton mb-144px">
              {newsLetters.map((item) => (
                   <div className="NewsletterMargin">
                       <h5 className="overline centerText">
                           {item.overline}
                       </h5>
-                      <h1 className="mBT-1 centerText">
+                      <h1 className=" centerText ">
                           {item.title}
                       </h1>
                   </div>

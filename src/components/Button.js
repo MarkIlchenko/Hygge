@@ -7,7 +7,7 @@ import "./button.css"
 const Button = (props) => {
     
     return (
-         <Link type={props.type} to={props.to} onClick={props.onClick} className="primaryBtn">
+         <Link type={props.type} to={props.to} onClick={props.onClick} className="primaryBtn d-flex justify-content-center">
              {props.label}
          </Link>
     );

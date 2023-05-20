@@ -19,7 +19,9 @@ const HerroBanner = () => {
                               </h1>
                           </div>
                      ))}
-                     <Button to="/hi" label="Click me" />
+                     <div className="w-196px">
+                         <Button to="/hi" label="Click me" className="w-fitContent"/>
+                     </div>
                  </div>
                  <img src={heroImage} alt="img" className="heroImage" />
              </div>

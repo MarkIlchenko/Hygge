@@ -44,10 +44,37 @@ import blogPostImage4 from "./blogImage4.svg";
 import blogPostImage5 from "./ImageblogImage5.svg";
 import blogPostImage6 from "./blogImage6.svg";
 import blogPostImage7 from "./blogImage7.svg";
+import emptyCart from "./EmptyCart.svg";
+import arrowBackBusket from "./ArrowBackBusket.svg";
+import arrowNextBusket from "./ArrowNextBusket.svg";
+import deleteIconStroke from "./DeleteIconStroke.svg";
+import productImage2 from "./ProductImage2.svg";
+import productImage3 from "./ProductImage3.svg";
+import natural from "./Natural.svg";
+import fullProtection from "./FullProtection.svg";
+import trending2 from "./Trending2.svg";
+import productImageNew1 from "./Product Image 15.05 (1).svg";
+import productImageNew2 from "./Product Image 15.05 (2).svg";
+import productImageNew3 from "./Product Image 15.05 (3).svg";
+import productImageNew4 from "./Product Image 15.05 (4).svg";
+import helpIcon from  "./HelpIcon.svg"
 
 
 export {
+    helpIcon,
+    productImageNew1,
+    productImageNew2,
+    productImageNew3,
+    productImageNew4,
+    natural,
+    fullProtection,
+    trending2,
+    productImage2,
+    productImage3,
+    deleteIconStroke,
     blogPostImage1,
+    arrowBackBusket,
+    arrowNextBusket,
     blogPostImage2,
     blogPostImage3,
     blogPostImage4,
@@ -93,4 +120,5 @@ export {
     product6,
     product7,
     product8,
+     emptyCart
 }

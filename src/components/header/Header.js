@@ -4,16 +4,30 @@ import "./header.module.css";
 import {Link} from "react-router-dom";
 import {NavBarMenu} from "../../constants/index";
 import Menu from "./Menuu/Menu";
+import {useSelector} from "react-redux";
+import {Basket, BtntestCart} from "../../pages/shoppingCart/ShoppingCart";
 // import Menu from "./menu/Menu";
+import Search from "./Search/Search";
 
 const Header = () => {
     const [visibleNav, setVisibleNav] = useState(false);
+    
+    
+    const [currentPage, setCurrentPage] = useState("products");
     
     const handleClick = () => setVisibleNav(false);
     
     useEffect(() => {
         visibleNav ? document.body.classList.add("no-scroll") : document.body.classList.remove("no-scroll");
     }, [visibleNav]);
+    
+    const handleGoToBasket = () => setCurrentPage("basket");
+    
+    const goBackToProducts = () => {
+        setCurrentPage("products");
+    };
+    
+    // const cartItems = useSelector((state) => state.cart.items);
     
     return (
          <div className="HeaderNavigation">
@@ -26,14 +40,11 @@ const Header = () => {
                                </Link>
                           ))}
                           <Menu />
-                          {/*{NavBarMenu.Burger.map((Burger) => (*/}
-                          {/*     <Link to={Burger.id}>*/}
-                          {/*         <img src={Burger.img}/>*/}
-                          {/*     </Link>*/}
-                          {/*))}*/}
-                          <div>
+                          <div className="d-flex align-items-center">
+                              <Search />
                               {NavBarMenu.NavLinks.map((NavLink, index) => (
-                                   <Link to={NavLink.id} className={`nav-link ${index ===  1 ? "margin1" : "margin2"}`}>
+                                   <Link to={NavLink.id} className={`nav-link ${index ===  0 ? "margin1" : "margin2"}`}>
+                                       
                                        <img src={NavLink.img} alt="icon"/>
                                    </Link>
                               ))}

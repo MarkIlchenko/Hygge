@@ -13,3 +13,22 @@
     text-align: center;
     color: #F7FAFC;
 }
+.secondaryBtn {
+    padding: 16px 40px;
+    box-sizing: border-box;
+    border: 2px solid #F6F7FB;
+    border-radius: 32px;
+
+    /*Text */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #1A202C;
+
+}
+.justify-content-center {
+    justify-content: center;
+}

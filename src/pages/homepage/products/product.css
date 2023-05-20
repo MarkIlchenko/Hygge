@@ -167,3 +167,6 @@
     margin-top: 32px;
     font-weight: 500;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}

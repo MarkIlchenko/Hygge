@@ -17,7 +17,7 @@ const Footer = () => {
     // };onClick={handleDarkMode} ${darkMode ? "dark-mode" : ""}
     
     return (
-         <div className="FooterContainer">
+         <div className="FooterContainer mb-144px">
              <footer className={`Footer`}>
                  <div className="Footer-block">
                      {NavBarMenu.map((NavBarMenu) => (

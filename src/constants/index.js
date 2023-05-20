@@ -1,4 +1,4 @@
-import {search, busket, profile, logo, burger, facebook, twitter, instagram, onSalesIcon, featured, icon1, icon2, icon3,  masks, eyeCare, moisturizers, treatments, nightCare, sunCare, product1, product2, product3, product4, product5, product6, product7, product8, avatar1, blogPostImage1, blogPostImage2, blogPostImage3, blogPostImage4, blogPostImage5, blogPostImage6, blogPostImage7} from "../img/index";
+import {search, busket, profile, logo, burger, facebook, twitter, instagram, onSalesIcon, featured, icon1, icon2, icon3,  masks, eyeCare, moisturizers, treatments, nightCare, sunCare, product1, product2, product3, product4, product5, product6, product7, product8, avatar1, blogPostImage1, blogPostImage2, blogPostImage3, blogPostImage4, blogPostImage5, blogPostImage6, blogPostImage7, productImage2, productImage3, natural, fullProtection, trending2, productImageNew1, productImageNew2, productImageNew3, productImageNew4} from "../img/index";
 
 // export const NavLinks  = [
 //     {
@@ -43,10 +43,10 @@ export const NavBarMenu = [
             }
         ],
         NavLinks: [
-            {
-                id: "search",
-                img: search,
-            },
+            // {
+            //     id: "search",
+            //     img: search,
+            // },
             {
                 id: "card",
                 img: busket,
@@ -294,6 +294,54 @@ export const herroBanner = [
         overline: "- Skincare Products",
     }
 ]
+export const FQAText = [
+    {
+        title: "Frequently Asked Questions",
+        overline: "- Find the Answers",
+    }
+]
+export const faqs = [
+    {
+        id: 1,
+        question: "How do I place an order on your website?",
+        answer:
+             "All you need to do to place an order on our wesbite is to choose the product that you would like to buy, then add it to cart and pay for it using any of the supported payment methods. ",
+        category: "basics",
+        date: "2021-09-01",
+        topyc: "1 topyc",
+        views: 200,
+    },
+    {
+        id: 2,
+        question: "What payment methods do you accept?",
+        answer:
+             "We accept all methods, paypall, credit card...",
+        category: "basics",
+        date: "2021-10-03",
+        topyc: "2 topyc",
+        views: 350,
+    },
+    {
+        id: 3,
+        question: "Do you offer an option to pay for the product over time?",
+        answer:
+             "Yes, we do. We have partnered with a few companies that offer such option.",
+        category: "advanced",
+        date: "2021-09-15",
+        topyc: "3 topyc",
+        views: 100,
+    },
+    {
+        id: 4,
+        question: "Where can I find the reviews?",
+        answer:
+             "Please visit our reviews page to find out more about that.",
+        category: "basics",
+        date: "2021-08-20",
+        topyc: "4 topyc",
+        views: 180,
+    },
+];
 
 export const comments = [
     {
@@ -330,85 +378,269 @@ export const ourBlog = [
     }
 ]
 
+export const shoppingCartText = [
+    {
+        title: "Shopping Cart",
+        overline: "- Your Cart"
+    }
+]
+
 export const whyUs = [
     {
         title: "Why People Choose Us",
         overline: "- Why Us"
     }
 ]
-
-export const exploreProducts2 = [
+export const exploreProducts3 = [
     {
-        imagee: product1,
-        title: "Sun Cream",
+    addDescription: "- Selling Fast",
+     
+     imagee: productImageNew1,
+     newImages: productImage2,
+     newImages2: productImage3,
+     
+     
+     
+     title: "Sun Protection",
+     name: "Sun Protection",
+     id: "sunCare",
+     category: "SUN CARE",
+     
+     price: 35,
+     
+     
+    
+},
+    {
+        addDescription: "- Selling Fast",
+        
+        imagee: productImageNew2,
+        newImages: productImageNew2,
+        newImages2: productImageNew2,
+        
+        
+        
+        title: "Day Eye Cream",
+        name: "Day Eye Cream",
+        id: "eyeCare",
+        category: "EYE CARE",
+        discount: "35% OFF",
+        price: 36,
+        withDiscount: "$48",
+        withoutDiscount: "$36",
+        
+    },
+    {
+        addDescription: "- Selling Fast",
+        
+        imagee: productImageNew3,
+        newImages: productImageNew3,
+        newImages2: productImageNew3,
+        
+        
+        
+        title: "Damage Repair",
+        name: "Damage Repair",
+        id: "treatments",
+        category: "TREATMENTS",
+        discount: "90% OFF",
+        price: 10,
+        withDiscount: "$100",
+        withoutDiscount: "$10",
+        
+    },
+    {
+        addDescription: "- Selling Fast",
+        
+        imagee: productImageNew4,
+        newImages: productImageNew4,
+        newImages2: productImageNew4,
+        
+        
+        
+        title: "Extra Sun Gel",
+        name: "Extra Sun Gel",
+        id: "moisturizers",
+        category: "MOISTURIZERS",
+        
+        price: 59,
+        withoutDiscount: "$59",
+        
+    },
+];
+
+export const productsTest = [
+    { id: 1, name: 'Product 1' },
+    { id: 2, name: 'Product 2' },
+    { id: 3, name: 'Product 3' },
+    { id: 4, name: 'Product 4' },
+    { id: 5, name: 'Product 5' }
+];
+export const exploreProducts4 = [
+    {
+        image: productImageNew1,
+        title: "Sun Protection",
+        name: "Sun Protection",
         id: "sunCare",
         category: "SUN CARE",
         discount: "20% OFF",
-        
+        price: 12,
         withDiscount: "$20",
         withoutDiscount: "$30"
     },
     {
+        image: productImageNew2,
+        title: "Sun Cream23",
+        name: "Sun Cream23",
+        id: "sunCare",
+        category: "SUN CARE",
+        discount: "20% OFF",
+        price: 12,
+        withDiscount: "$20",
+        withoutDiscount: "$30"
+    },
+];
+export const exploreTheFeatures = [
+    {
+        overline: "- Product Features",
+        title: "Explore the Features",
+        features: [
+            {
+                img: natural,
+                name: "Natural",
+                text: "We are using natural ingredients only when creating our products."
+            },
+            {
+                img: fullProtection,
+                name: "Full Protection",
+                text: "This product provides broad spectrum SPF 50 and blue light protection."
+            },
+            {
+                img: trending2,
+                name: "Trending",
+                text: "It is one of our most popular products that we have on offer."
+            },
+        ]
+    }
+]
+
+export const exploreProducts2 = [
+    {
+        addDescription: "- Selling Fast",
+        imgTest: <img src={product1}/>,
+        imagee: product1,
+        newImages: productImage2,
+        newImages2: productImage3,
+        
+        idSearch: "Sun Cream",
+        
+        title: "Sun Cream",
+        name: "Sun Cream",
+        id: "sunCare",
+        category: "SUN CARE",
+        discount: "20% OFF",
+        price: 20,
+        withDiscount: "$100",
+        withoutDiscount: "$50",
+        
+    },
+    {
         imagee: product2,
+    
+        newImages: productImage2,
+        newImages2: productImage3,
+        
+        imgTest: <img src={product2}/>,
         title: "Night Eye Cream",
+        name: "Night Eye Cream",
         id: "eyeCare",
         category: "EYE CARE",
         discount: "50% OFF",
-        
+        price: 50,
         withDiscount: "$100",
         withoutDiscount: "$50"
     },
     {
         imagee: product3,
+    
+        newImages: productImage2,
+        newImages2: productImage3,
+        imgTest: <img src={product3}/>,
         title: "Acne Skin Gel",
+        name: "Acne Skin Gel",
         id: "treatments",
         category: "TREATMENTS",
-        
+        price: 25,
         withoutDiscount: "$25"
     },
     {
         imagee: product4,
+    
+        newImages: productImage2,
+        newImages2: productImage3,
+        imgTest: <img src={product4}/>,
         title: "Dry Skin Rescue",
+        name: "Dry Skin Rescue",
         id: "moisturizers",
         category: "MOISTURIZERS",
-        
+        price: 59,
         withoutDiscount: "$59"
     },
      
      // 2 Floor
     {
         imagee: product5,
+    
+        newImages: productImage2,
+        newImages2: productImage3,
+        imgTest: <img src={product5}/>,
         title: "Body Protection",
+        name: "Body Protection",
         id: "sunCare",
         category: "TREATMENTS",
-        
+        price: 32,
         withoutDiscount: "$32"
     },
     {
         imagee: product6,
+    
+        newImages: productImage2,
+        newImages2: productImage3,
+        imgTest: <img src={product6}/>,
         title: "All In One Gel",
+        name: "All In One Gel",
         id: "eyeCare",
         category: "FEATURED",
-        
+        price: 79,
         withoutDiscount: "$79"
     },
     {
         imagee: product7,
+    
+        newImages: productImage2,
+        newImages2: productImage3,
+        imgTest: <img src={product7}/>,
         title: "Deep Treatment",
+        name: "Deep Treatment",
         id: "treatments",
         category: "ON SALE",
         discount: "5% OFF",
-        
+        price: 17,
         withDiscount: "$22",
         withoutDiscount: "$17"
     },
     {
         imagee: product8,
+    
+        newImages: productImage2,
+        newImages2: productImage3,
+        imgTest: <img src={product8}/>,
         title: "Morning Shine",
+        name: "Morning Shine",
         id: "moisturizers",
         category: "NIGHT CARE",
-        
-        withoutDiscount: "$14"
+        price: 14,
+        withoutDiscount: "$14",
     },
 ]
 
