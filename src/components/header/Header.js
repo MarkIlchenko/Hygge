@@ -8,7 +8,7 @@ import {useSelector} from "react-redux";
 import {Basket, BtntestCart} from "../../pages/shoppingCart/ShoppingCart";
 // import Menu from "./menu/Menu";
 import Search from "./Search/Search";
-import LoginPopup from "../../pages/Login/Login"
+import SignUpForm from "../../pages/Login/Login"
 
 const Header = () => {
     const [visibleNav, setVisibleNav] = useState(false);
@@ -31,30 +31,29 @@ const Header = () => {
     // const cartItems = useSelector((state) => state.cart.items);
     
     return (
-         <div className="HeaderNavigation">
-             <nav>
-                 {NavBarMenu.map((NavBarMenu) => (
-                      <>
-                          {NavBarMenu.Logo.map((Logo) => (
-                               <Link to={Logo.id}>
-                                   <img src={Logo.img} alt="Logo"/>
-                               </Link>
-                          ))}
-                          <Menu />
-                          <div className="d-flex align-items-center">
-                              <Search />
-                              {NavBarMenu.NavLinks.map((NavLink, index) => (
-                                   <Link to={NavLink.id} className={`nav-link ${index ===  0 ? "margin1" : "margin2"}`}>
-                                       
-                                       {NavLink.id === "profile" && <LoginPopup />} {/* Додано використання компонента LoginPopup для іконки "profile" */}
-                                       {NavLink.id !== "profile" && <img className='profile' src={NavLink.img} alt="icon"/>}
-                                   </Link>
-                              ))}
-                          </div>
-                      </>
-                 ))}
+        <div className="HeaderNavigation">
+            <nav>
+                {NavBarMenu.map((NavBarMenu) => (
+                    <>
+                        {NavBarMenu.Logo.map((Logo) => (
+                            <Link to={Logo.id}>
+                                <img src={Logo.img} alt="Logo"/>
+                            </Link>
+                        ))}
+                        <Menu />
+                        <div className="d-flex align-items-center">
+                            <Search />
+                            {NavBarMenu.NavLinks.map((NavLink, index) => (
+                                <Link to={NavLink.id} className={`nav-link ${index ===  0 ? "margin1" : "margin2"}`}>
+                                    {NavLink.id === "profile" && <SignUpForm />}
+                                    {NavLink.id !== "profile" && <img className='profile' src={NavLink.img} alt="icon"/>}
+                                </Link>
+                            ))}
+                        </div>
+                    </>
+                ))}
                  {/*<Menu value={visibleNav} onChange={setVisibleNav}/>*/}
-             </nav>
+            </nav>
          </div>
     );
 };
