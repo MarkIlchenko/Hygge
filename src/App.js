@@ -15,7 +15,9 @@ import NewsLetter from "./pages/homepage/newsLetter/NewsLetter";
 import {exploreProducts2} from "./constants";
 import FAQ from "./pages/FAQ/FAQ";
 import Checkout from "./pages/Checkout/Checkout";
-import {helpIcon} from "./img/index"
+import {helpIcon} from "./img/index";
+
+import ExploreCareers from "./pages/Careers/ExploreCareers";
 
 
 
@@ -40,6 +42,7 @@ function App() {
             <Route path="/testSection" element={<ItemPage />} />
             <Route path="/FAQ" element={<FAQ />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/careers" element={<ExploreCareers />} />
         </Routes>
 
 

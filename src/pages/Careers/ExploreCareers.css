@@ -1,0 +1,29 @@
+.section-careers {
+    display: flex;
+    justify-content: center;
+}
+
+.main-careers {
+    width: 1248px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.top-link {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2975FF;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #1A202C;
+}
+
+.careers-body {
+    display: flex;
+}

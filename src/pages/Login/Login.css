@@ -1,0 +1,198 @@
+.ant-modal-content {
+    width: 496px;
+    height: 580px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-modal .ant-modal-title {
+    font-weight: 700;
+    /* font-size: 40px; */
+    line-height: 56px;
+    color: #1A202C;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-row {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-form-item {
+    height: 90px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-form-item .ant-form-item-label >label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A202C;
+    margin-bottom: 20px;
+
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-input,
+:where(.css-dev-only-do-not-override-k7429z).ant-input-affix-wrapper {
+    width: 440px;
+    height: 40px;
+    border: 2px solid #F6F7FB;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    z-index: 99;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-form-item .ant-form-item-control:first-child:not([class^="'ant-col-'"]):not([class*="' ant-col-'"]) {
+    margin: 20px 0 0 0;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-input-affix-wrapper >input.ant-input {
+    top: -3px;
+    height: 34px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-checkbox+span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-checkbox .ant-checkbox-inner {
+    border-color: #00CC96;
+    background-color: #00CC96;
+    border-radius: 10px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-btn-primary {
+    background-color: #00CC96;
+    border-radius: 32px;
+    width: 440px;
+    height: 44px;
+    color: white;
+
+
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-btn-link {
+    top: 20px;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-btn >span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center
+}
+
+
+.popup {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 40%;
+    top: 30%;
+    border: 1px solid #00CC96;
+    background-color: white;
+    border-radius: 32px;
+}
+
+.close-btn {
+    position: absolute;
+    left: 92%;
+    top: 2%;
+    font-size: 32px;
+    border: none;
+    background: none;
+    color: #00CC96;
+}
+
+.section-create,
+.section-login {
+    padding: 30px;
+}
+
+.title-create,
+.title-login {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.email-form,
+.pasword-form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0px;
+}
+
+.input-section {
+    /* width: 496px;
+    height: 64px; */
+    border: 2px solid #F6F7FB;
+    border-radius: 32px;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+.label-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 40px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 58.5%;
+    left: 6%;
+}
+
+.btn-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-btn,
+.login-btn {
+    width: 200px;
+    height: 50px;
+    background: #00CC96;
+    border-radius: 32px;
+    border: 1px solid #F6F7FB;
+    color: #F7FAFC;
+}
+
+.login-btn {
+    color: #1A202C;
+    background: #F6F7FB;
+}
+
+.create-button,
+.login-button,
+.forgot-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+    border: 1px solid #F6F7FB;
+    color: #1A202C;
+    background: #F6F7FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button {
+    background: #00CC96;
+    color: #F7FAFC;
+}
+
+.forgot-button {
+    background: none;
+    border: none;
+    text-decoration: revert;
+}

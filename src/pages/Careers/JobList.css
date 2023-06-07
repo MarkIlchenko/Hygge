@@ -1,0 +1,43 @@
+.section-list {
+    margin-top: 72px;
+}
+
+.job-list {
+    width: 656px;
+    height: 328px;
+    left: 632px;
+    top: 432px;
+    border: 2px solid #F6F7FB;
+    border-radius: 48px;
+    padding-left: 56px;
+    margin-bottom: 48px;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1A202C;
+    margin: 56px 0px 24px 0px;
+}
+
+.list-name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1A202C;
+    margin-bottom: 48px;
+}
+
+.list-btn {
+    width: 141px;
+    height: 64px;
+    border: 1px solid #F6F7FB;
+    background: #00CC96;
+    border-radius: 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #F7FAFC;
+}

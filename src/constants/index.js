@@ -51,11 +51,13 @@ export const NavBarMenu = [
                 id: "card",
                 img: busket,
             },
-            {
-                id: "profile",
-                img: profile,
-            },
+            
+            // {
+            //     id: "profile",
+            //     img: profile,
+            // },
         ],
+       
         socialMedia: [
             {
                 id: "instagram",
@@ -72,7 +74,12 @@ export const NavBarMenu = [
         ],
     }
 ]
-
+export const testIcon = [
+    {
+        id: "profile",
+        img: profile,
+    },
+]
 export const footerLinks =[
     {
         tittle: "Categories",
