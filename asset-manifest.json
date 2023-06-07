@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hygge/static/css/main.3f9b2545.css",
-    "main.js": "/Hygge/static/js/main.99e9c047.js",
+    "main.css": "/Hygge/static/css/main.20fbcc63.css",
+    "main.js": "/Hygge/static/js/main.bd7a2e15.js",
     "static/media/blogImage7.svg": "/Hygge/static/media/blogImage7.0f4ceb12f9bcb51a2e2d9ea4189896af.svg",
     "static/media/Image.svg": "/Hygge/static/media/Image.8ac941e96a6bdc78b02fb01748b64ffa.svg",
     "static/media/blogImage3.svg": "/Hygge/static/media/blogImage3.a705d0ec0fa5705e233243efbd2289b9.svg",
@@ -63,11 +63,11 @@
     "static/media/Trending.svg": "/Hygge/static/media/Trending.d2ac6539615a24046b7bdad1df47c745.svg",
     "static/media/FullProtection.svg": "/Hygge/static/media/FullProtection.8da93712f17f1f63486c8b11b6f45f81.svg",
     "static/media/Treatments.svg": "/Hygge/static/media/Treatments.d7a640e51289c89627629ec3787dcb0f.svg",
-    "main.3f9b2545.css.map": "/Hygge/static/css/main.3f9b2545.css.map",
-    "main.99e9c047.js.map": "/Hygge/static/js/main.99e9c047.js.map"
+    "main.20fbcc63.css.map": "/Hygge/static/css/main.20fbcc63.css.map",
+    "main.bd7a2e15.js.map": "/Hygge/static/js/main.bd7a2e15.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f9b2545.css",
-    "static/js/main.99e9c047.js"
+    "static/css/main.20fbcc63.css",
+    "static/js/main.bd7a2e15.js"
   ]
 }
