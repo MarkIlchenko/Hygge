@@ -1,0 +1,39 @@
+.mt-196px {
+    margin-top: 196px;
+}
+.mb-144px {
+    margin-bottom: 144px;
+}
+.Checkout nav {
+    position: static;
+}
+.Checkout .BusketProductItems {
+    padding: 56px;
+    box-sizing: border-box;
+    border: 2px solid #F6F7FB;
+    border-radius: 48px;
+}
+
+.Checkout .BusketProductItem {
+
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: unset;
+    border: unset;
+    border-radius: unset;
+}
+.checkoutDetails {
+    padding: 56px;
+    box-sizing: border-box;
+    border: 2px solid #F6F7FB;
+    border-radius: 48px;
+}
+
+.InputCheckoutWrapper input {
+    padding: 16px 24px;
+    box-sizing: border-box;
+
+    border: 2px solid #F6F7FB;
+    border-radius: 32px;
+}

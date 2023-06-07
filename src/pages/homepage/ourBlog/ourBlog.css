@@ -1,0 +1,21 @@
+.blogItem {
+    position: relative;
+    margin-bottom: 72px;
+}
+.blogItemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.BlogGreen {
+    background: #00CC96;
+}
+.blogPost {
+    border-radius: 48px;
+}
+
+.BlogMargin {
+    margin-top: 144px;
+    margin-bottom: 144px;
+}

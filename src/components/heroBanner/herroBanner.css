@@ -1,0 +1,56 @@
+.container {
+    max-width: 1248px;
+    position: relative;
+    margin: auto;
+}
+.HerroBannerMargin {
+    margin-top: 196px;
+}
+.bg-gray {
+    background: #F6F7FB;
+    border-radius: 64px;
+}
+.textContainer {
+    display: block;
+}
+nav {
+    max-width: 1296px;
+    margin: auto;
+}
+.heroImage{
+    /*width: 768px;*/
+    height: 576px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.wrapper {
+    display: flex;
+    padding: 176px 0 176px 96px;
+}
+.overline {
+    margin-bottom: 0;
+    font-style: italic;
+    color: #2975FF;
+    font-weight: 600;
+}
+.mBT-1 {
+    margin: 8px 0 40px 0;
+    width: 496px;
+}
+
+.submitButton {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    padding: 16px 40px;
+    border: 0;
+    margin-left: 24px;
+    background: #00CC96;
+    border-radius: 32px;
+
+    color: #F7FAFC;
+}

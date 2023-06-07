@@ -1,0 +1,38 @@
+.switch {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 48px;
+}
+
+.input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.switch_in {
+    display: block;
+    width: 56px;
+    border: 4px solid #F6F7FB;
+    background: #F6F7FB;
+    border-radius: 16px;
+}
+
+
+.tick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background: #00CC96;
+    border-radius: 50%;
+    font-size: 0;
+    transition: all 0.25s;
+}
+
+.pic_moon {
+    display: none;
+}
+

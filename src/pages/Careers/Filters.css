@@ -1,0 +1,71 @@
+.section-filter {
+    width: 384px;
+    height: 848px;
+    border: 2px solid #F6F7FB;
+    border-radius: 48px;
+    margin: 72px 96px 0px 0px;
+    padding-left: 56px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1A202C;
+    margin: 56px 0px 48px 0px;
+}
+
+.job-title,
+.job-location,
+.job-dept {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A202C;
+    margin-bottom: 16px;
+}
+
+.section-job,
+.section-location,
+.section-dept {
+    width: 328px;
+    height: 64px;
+    border: 2px solid #F6F7FB;
+    border-radius: 32px;
+    margin-bottom: 48px;
+    padding: 0px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1A202C;
+}
+
+.section-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.apply-btn,
+.clear-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 10px;
+    width: 328px;
+    height: 64px;
+    background: #00CC96;
+    border: 2px solid #F6F7FB;
+    border-radius: 32px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #F7FAFC;
+}
+
+.clear-btn {
+    background: #FFFFFF;
+    color: #1A202C;
+}

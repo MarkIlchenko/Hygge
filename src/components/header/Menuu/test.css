@@ -1,0 +1,144 @@
+a {
+    text-decoration: none;
+}
+
+.DropDown-List {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #1A202C;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.DropDown-List:hover {
+    color: #00CC96;
+    /*text-decoration: underline;*/
+    transition: 0.3s;
+}
+.Link-item {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #1A202C;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.Link-items:hover {
+    color: #00CC96;
+    /*text-decoration: underline;*/
+    transition: 0.3s;
+}
+
+.dropDownIcon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #1A202C;
+}
+.dropDownIcon:hover {
+    color: #00CC96;
+    /*text-decoration: underline;*/
+    transition: 0.3s;
+}
+.menuw {
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.openw {
+    visibility: visible;
+}
+
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.mr-2 {
+    margin-left: 12px;
+}
+
+.NavBarWrapper {
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85vh;
+    background: #FFF;
+    position: fixed;
+    overflow-y: hidden;
+}
+
+/*.NavBarWrapper {*/
+/*    height: 80vh;*/
+/*    position: relative;*/
+/*    */
+/*}*/
+
+.NavBarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin-top: -200px;*/
+    /*margin-left: -74px;*/
+}
+
+.open {
+    visibility: visible;
+    opacity: 1;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin-left: 200px;
+    color: #1A202C;
+}
+.Link-items {
+    color: #1A202C;
+}
+.Link-items:hover {
+    /*color: #00CC96;*/
+}
+.Menu {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.leftMargin {
+    margin-left: -164px;
+}
+.testtt {
+    height: 48px;
+}
+
+.activeText {
+    color: #00CC96;
+}
+
+.justText {
+    color: blue;
+}
+
+/*# sourceMappingURL=Menu.css.map */

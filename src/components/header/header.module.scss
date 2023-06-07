@@ -1,0 +1,27 @@
+
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 48px;
+  box-sizing: border-box;
+  position: fixed;
+  background: #FFF;
+  z-index: 1000;
+}
+.nav-margin {
+  margin-left: 20px;
+}
+.margin1 {
+  padding: 100px;
+}
+.margin2 {
+  margin-top: 0;
+}
+.HeaderNavigation {
+background: #2975FF;
+}
+
+

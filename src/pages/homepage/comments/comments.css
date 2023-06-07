@@ -1,0 +1,78 @@
+.comments h1 {
+    text-align: left;
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    position: relative;
+
+}
+.h1Br {
+    max-width: 496px;
+}
+/*.commentsContainer {*/
+/*    display: flex;*/
+/*}*/
+.briefp {
+    width: 400px;
+}
+.comments {
+    width: 100%;
+    padding: 228px 0 228px 96px;
+    box-sizing: border-box;
+    background: #F6F7FB;
+    border-radius: 64px;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-carousel .slick-dots {
+    position: unset;
+    inset-inline-end: 0;
+    bottom: 0;
+    inset-inline-start: 0;
+    z-index: 15;
+    display: flex!important;
+    justify-content: start;
+    padding-inline-start: 0;
+    list-style: none;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-carousel .slick-dots li.slick-active {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #00CC96;
+    border-radius: 50%;
+    background: unset ;
+    opacity: unset;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-carousel .slick-dots li {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #00CC96;
+    background: #00CC96 ;
+    border-radius: 50%;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-carousel .slick-dots li.slick-active button{
+    height: 0;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-carousel .slick-dots li button {
+
+    height: 8px;
+
+}
+.h4Mb {
+    margin: 32px 0 16px;
+    text-align: left;
+}
+.nextArrowBtn2 {
+    position: absolute;
+    bottom: -88px;
+    left: 58px;
+}
+.prevArrowBtn2 {
+    position: absolute;
+    bottom: -88px;
+    left: 0;
+}
+.arrowMb {
+    margin-bottom: 40px;
+}
