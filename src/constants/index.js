@@ -230,6 +230,10 @@ export const NavMenu = [
     {
         id: "/contacts",
         title: "Contacts"
+    },
+    {
+        id: "/careers",
+        title: "Careers"
     }
     
 ];
@@ -289,8 +293,12 @@ export const nav = [
     {
         id: "/contacts",
         title: "Contacts"
+    },
+    
+    {
+        id: "/careers",
+        title: "Careers"
     }
-
 ];
 
 
